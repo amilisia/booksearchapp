@@ -23,7 +23,7 @@ export class Books extends Component {
         });
     }
 
-    handleChange(e){
+    searchBook(e){
         let bookList = []
         let newList = []
         if(e.target.value!==""){
@@ -63,7 +63,7 @@ export class Books extends Component {
                     <input  type="text" 
                             className="form-control" 
                             placeholder="Type anything..."
-                            onChange={this.handleChange}
+                            onChange={this.searchBook}
                     />
                 </div>
                 <div className="result">
