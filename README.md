@@ -1,6 +1,6 @@
 # booksearchapp
 
-backend/
+/backend
 > python manage.py runserver
 
 /frontend
